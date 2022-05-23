@@ -1,0 +1,103 @@
+body {
+  
+  
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 34px;
+  text-decoration: underline;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(242, 113, 218);
+  
+}
+
+.services {
+  border-style: groove;
+  height: 400px;
+}
+
+.serviceTitle {
+  text-decoration: underline;
+  text-align: center;
+  font-family: Arizonia, Arial;
+  font-size: 40px;
+  padding-bottom: 5px;
+  border-style: double;
+}
+
+.acrylicPrice {
+
+  width: 200px;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 70px;
+  text-align: center;
+  
+}
+
+.basicPrice {
+  
+  width: 200px;
+  margin-left: 80px;
+  margin-right: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 70px;
+  text-align: center;
+}
+
+
+.boujeePrice {
+  
+  width: 200px;
+  margin-left: 80px;
+  margin-right: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 70px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.includedService {
+  
+  text-align: center;
+  padding-top: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: -20px;
+  height: 30px;
+  border-style: inherit;
+
+}
+
+.classyPrice {
+  
+  width: 200px;
+  margin-left: 80px;
+  margin-right: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 70px;
+  text-align: center;
+
+}
+
+ol {
+  text-align: center;
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+#classySetsPrice {
+  margin-top: -30px;
+
+}
