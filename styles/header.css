@@ -5,6 +5,7 @@ ul {
   height: 55px;
 
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   
@@ -19,3 +20,4 @@ ul {
   border-bottom-color:rgb(189, 189, 189)
 
 }
+

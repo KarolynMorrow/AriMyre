@@ -3,7 +3,7 @@
   <head>
     <title>Welcome to AriMyre</title>
     
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/price.css">
     <link rel="stylesheet" href="styles/logo.css">
     <link rel="stylesheet" href="styles/header.css">
     
@@ -12,49 +12,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <div><img class="logo" src="logo/logo1.jpg" alt="AriMyre Logo"></div>
+    <div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="price.html">Price List</a></li>
+        <li><a href="about.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </div>
     
-    <h2>Price List</h2>
+    <h2 id="pageTitle">Price List</h2>
     <p class="welcome">Welcome to AriMyre where your hands are cared for in mine! Below you will find all services offered as well 
       as their prices. If you have any questions please feel free to send me a direct message through my instagram.
     </p>
-    <div style= "margin-top: 30px;
-    display:grid;
-    column-gap: 0px;
-    row-gap: 40px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;" class="services">
-      <div class="acrylicPrice">
-        <p class="serviceTitle">Acrylic</p>
-        <ol>Short $40</ol>
-        <ol>Medium $45</ol>
-        <ol>Long $55</ol>
-        <ol>X-Long $60</ol>
-      </div>
+    <div id="svcs" class="services">
+
 
       
-      <div class="basicPrice">
+      <div class="serviceList">
         <p class="serviceTitle">Basic</p>
-        <ol>Manicure $25 </ol>
+        <ol><a href="extraSvcs.html"> Manicure $25 </a></ol>
         <p class="includedService"> Cuticle trim, 2-minute massage, nail cut and polish included.</p>
-        <ol>Pedicure $35</ol>
+        <ol><a href="extraSvcs.html"> Pedicure $35</a></ol>
         <p class="includedService"> Cuticle trimming, sugar scrub, and lotion included.</p>
       </div>
 
-      <div class="boujeePrice">
+      <div class="serviceList">
         <p class="serviceTitle">Boujee</p>
-        <ol>Manicure $35</ol>
+        <ol><a href="extraSvcs.html"> Manicure $35</a></ol>
         <p class="includedService"> Cuticle trim, 2-minute massage, nail cut and polish included.</p>
-        <ol>Pedicure $45</ol>
+        <ol><a href="extraSvcs.html"> Pedicure $45</a></ol>
         <p class="includedService"> Cuticle trimming, sugar scrub, and lotion included.</p>
       </div>
 
-      <div class="classyPrice">
+      <div class="serviceList">
         <p class="serviceTitle">Classy Sets</p>
         <p id="classySetsPrice">Below sets are $50</p>
-        <ol>French Tip</ol>
-        <ol>Ombre</ol>
-        <ol>Full Marble</ol>
+        <ol><a href="extraSvcs.html"> French Tip</a></ol>
+        <ol><a href="extraSvcs.html"> Ombre</a></ol>
+        <ol><a href="extraSvcs.html"> Full Marble</a></ol>
         
+      </div>
+
+      <div class="serviceList">
+        <p class="serviceTitle">Acrylic</p>
+        <ol><a href="extraSvcs.html"> Short $40</a></ol>
+        <ol><a href="extraSvcs.html"> Medium $45</a></ol>
+        <ol><a href="extraSvcs.html"> Long $55</a></ol>
+        <ol><a href="extraSvcs.html"> X-Long $60</a></ol>
       </div>
 
     </div>
